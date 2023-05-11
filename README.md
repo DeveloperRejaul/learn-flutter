@@ -10,18 +10,17 @@ flutter run
 
 1. step : import "package:flutter/material.dart"
 2. step : create main function
-3. step : call runApp mathod in main function
-4. step : call MaterialApp function in runApp mathod
-5. step : write title and home and other option in matrialApp mathod
-6. step : call Scaffold mathod in with home option.
-7. step : write body in Scaffold mathod .
+3. step : call runApp method in main function
+4. step : call MaterialApp function in runApp method | title, theme, home, route |
+5. step : write title and home and other option in matrialApp method
+6. step : call Scaffold method in with home option.
+7. step : write body in Scaffold method . | appBar, body, bottomNavigation, drawer, backgroundColor, floatingActionButton, BottomSheet  |
 8. step : write child: in body option .
-9. step : write Text mathod in chaild.
+9. step : write Text method in child.
 
 ```dart
 
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(MaterialApp(
     title: "learn-dart",
